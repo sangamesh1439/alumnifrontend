@@ -5,6 +5,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Button } from 'react-bootstrap';
 
 export const App = () => {
   const userType ="GUEST";
@@ -50,7 +53,9 @@ export const App = () => {
 
 
 const  Home = ()=> {
-  return <h2>Home</h2>;
+  return <h2>
+    <Button> ajshdh </Button>
+  </h2>;
 }
 
 const  About = ()=> {
