@@ -8,6 +8,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Button } from 'react-bootstrap';
+import { Login } from "./Login/Login";
 
 export const App = () => {
   const userType ="GUEST";
@@ -53,9 +54,9 @@ export const App = () => {
 
 
 const  Home = ()=> {
-  return <h2>
-    <Button> ajshdh </Button>
-  </h2>;
+  return <div>
+    <Login/>
+  </div>;
 }
 
 const  About = ()=> {
